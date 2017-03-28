@@ -11,7 +11,7 @@ sudo aptitude install git  -y
 # vim install
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 sudo aptitude update
-sudo apt-get install exuberant-ctags, silversearcher-ag -y
+sudo apt-get install exuberant-ctags silversearcher-ag -y
 sudo aptitude upgrade vim
 cp vimrc ~/.vimrc
 vim  +PluginInstall +all
@@ -27,6 +27,7 @@ sudo aptitude install  mariadb-server -y
 # install nginx  
 sudo aptitude install nginx -y
 
-
+# install python3 relation library
+sudo aptitude install ipython3 python3-pip -y 
 
 
