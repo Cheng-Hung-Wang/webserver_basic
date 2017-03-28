@@ -83,10 +83,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 au BufNewFile *.py 0r  ~/.pyhead.template                                      
 au BufNewFile *.sh 0r  ~/.bashhead.template 
 
-" Open a NERDTree
-nmap <F5> :NERDTreeToggle<cr>
-
-
 
 " python-mode config
 let g:pymode = 1
@@ -103,6 +99,8 @@ let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'mccabe']
 
 
 
+" Open a NERDTree
+nmap <F5> :NERDTreeToggle<cr>
 
 " Tagbar
 let g:tagbar_width=35
