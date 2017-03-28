@@ -6,7 +6,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
@@ -20,7 +20,7 @@ filetype plugin indent on    " required
 
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme molokai
 
 set nofoldenable
 set t_Co=256
