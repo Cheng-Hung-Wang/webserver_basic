@@ -97,6 +97,10 @@ let g:pymode_breakpoint_bind = '<leader>b'
 let g:pymode_lint_on_write = 1
 let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'mccabe']
 
+" close python mode Regenerate repo cache
+let g:pymode_rope = 0
+let g:pymode_rope_lookup_project = 0
+
 
 
 " Open a NERDTree
