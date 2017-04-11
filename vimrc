@@ -34,6 +34,8 @@ set ruler
 set showcmd
 " Set fileencodings
 set fileencodings=utf-8,bg18030,gbk,big5
+set termencoding=utf-8                                                                                                                                                                                                                   
+set encoding=utf-8  
 
 filetype plugin indent on
 
